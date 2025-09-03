@@ -53,6 +53,27 @@ DB_CONNECTION=sqlite
 # DB_PASSWORD=
 ```
 
+## Breeze toevoegen 
+
+Breeze is een starter kit om authenticatie (registreren, inloggen, enz. ) toe te voegen aan jouw Laravel project. 
+
+Voer het volgende commando uit om breeze toe te voegen aan de `require-dev` dependencies in `composer.json`.  
+
+```bash
+composer require laravel/breeze --dev
+```
+
+Installeer alle benodigde onderdelen als `Controllers`, `Views`, `Routes` en meer...
+
+```bash
+php artisan breeze:install
+```
+
+Je kunt kiezen voor de volgende opties. Dark / Light mode is een persoonlijke keuze. 
+
+![](../images/breeze-installation.png)
+
+
 ## Development server starten
 
 Om het resultaat van het Laravel project in de browser te kunnen zien, heb je een php server nodig. Deze wordt meegeleverd in het Laravel project en is met een commando in de **terminal** te starten
