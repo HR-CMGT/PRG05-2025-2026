@@ -82,7 +82,7 @@ Om het resultaat van het Laravel project in de browser te kunnen zien, heb je ee
 composer run dev
 ```
 
-De server wordt gestart en het url wordt weergegeven in de terminal. [http://naam-van-je-project.test](http://naam-van-je-project.test). Klik hierop om de pagina te openen. 
+De server wordt gestart en het url wordt weergegeven in de terminal. [http://127.0.0.1:8000](http://127.0.0.1:8000). Klik hierop om de pagina te openen. 
 
 Naast de webserver wordt met `composer run dev` ook vite gestart. Hierdoor worden css en js bestanden gecompileerd en blijven deze na wijzigingen up-to-date.
 
