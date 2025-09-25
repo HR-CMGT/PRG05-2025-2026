@@ -6,7 +6,7 @@ Voor aanvang van les 3 lever je een onderzoeksverslag in naar aanleiding van jou
 
 ### Onderzoek Laravel
 
-- Gebruik de officiële documentatie van [Laravel.com](https://laravel.com/docs/12.x). Let op dat rechtsboven de versie op de meest recente staat.
+- Gebruik de officiële documentatie van [Laravel.com](https://laravel.com/docs/12.x). Let op dat de versie van de documentatie op de meest recente staat. Deze staat rechtsboven in de hoek. 
 - Installeer Laravel op je eigen computer. Gebruik hiervoor de [installatie instructies](../instructies/installatie.md)
 - Ook kun je gebruik maken van deze instructievideo van [Laracast.com](https://laracasts.com/series/30-days-to-learn-laravel-11/)
 - Begin makkelijk! Maak eerst een **View** aan en toon deze door vanuit de **Route** hier direct naar te verwijzen. Onder instructies kan je hiervan een [voorbeeld](../instructies/new-project-and-route.md) vinden. 
