@@ -14,7 +14,7 @@ We beginnen met het aanmaken van een nieuw Laravel project:
 * Ga naar je **Development** folder van Herd
 * Check met `pwd` of je in de juiste map staat (zie ook [hulp met werken in de terminal](https://gist.github.com/bradtraversy/cc180de0edee05075a6139e42d5f28ce))
 * Creëer het nieuwe project: `composer create-project laravel/laravel projectnaam`
-* Voeg Breeze toe zoals in de [Installatie](../instructie/installatie.md#breeze-toevoegen) beschreven staat
+* Voeg Breeze toe zoals in de [Installatie](../instructies/installatie.md#breeze-toevoegen) beschreven staat
 
 Open nu je project in PhpStorm. Er komen popups met vragen om npm te draaien en om helpercode te genereren die je kunt toestaan.
 
