@@ -10,16 +10,19 @@ Hieronder staat een stappenplan voor het aanmaken van een nieuwe project met lok
 
 We beginnen met het aanmaken van een nieuw Laravel project:
 
-* Maak een map aan voor je Laravel project
-* Ga in de terminal (Powershell) naar deze map
+* Open de terminal (PowerShell)
+* Ga naar je **Development** folder van Herd
 * Check met `pwd` of je in de juiste map staat (zie ook [hulp met werken in de terminal](https://gist.github.com/bradtraversy/cc180de0edee05075a6139e42d5f28ce))
-* Creëer het nieuwe project: `composer create-project laravel/laravel .` (vergeet de punt niet, die betekent dat je het project in de huidige directory wilt zetten)
+* Creëer het nieuwe project: `composer create-project laravel/laravel projectnaam` 
 
 Open nu je project in PhpStorm. Er komen popups met vragen om npm te draaien en om helpercode te genereren die je kunt toestaan.
 
-De prettigste manier om Laravel te ontwikkelen is door twee terminal vensters te openen in PHPStorm: één om de webserver en NPM te draaien en één waar je zelf dingen in kunt doen zonder dat je steeds de server hoeft te stoppen en starten. Open de twee terminal vensters:
-1. `composer run dev`
-2. Hier run je nog niks
+Om de frontend processen te laten draaien (css en js updaten) zul je een terminalvenster in PHPStorm moeten openen. Hierin draai je het volgende commando: 
+```
+npm run dev
+```
+
+Ga in je browser naar `projectnaam.test`. Hier zal de default Laravelpagina zichtbaar zijn.
 
 De tweede terminal gebruiken we nu om een git repository met branch 'main' aan te maken:
 * `git config --global init.defaultBranch main` (dit hoeft alleen de eerste keer)
