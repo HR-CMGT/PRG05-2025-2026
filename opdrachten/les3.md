@@ -22,6 +22,8 @@ Om de frontend processen te laten draaien (css en js updaten) zul je een termina
 npm run dev
 ```
 
+Open het .env bestand en verander de APP_URL naar `http://projectnaam.test` (Let op, hier vul je uiteraard je eigen foldernaam in)
+
 Ga in je browser naar `projectnaam.test`. Hier zal de default Laravelpagina zichtbaar zijn.
 
 De tweede terminal gebruiken we nu om een git repository met branch 'main' aan te maken:
