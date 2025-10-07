@@ -11,7 +11,7 @@ Route::get('/about-us', function() {
    return 'This page is about us';
 });
 ```
-zal de volgende URL: `http://localhost:8000/about-us` de tekst `This page is about us` tonen.
+zal de volgende URL: `http://projectnaam.test/about-us` de tekst `This page is about us` tonen.
 
 Het keyword 'get' na de dubbele punt geeft de actie aan. 
 
@@ -58,7 +58,7 @@ In de view kun je de variabele `company` nu gebruiken. Dit doe je door de variab
 
 ## Parameter toevoegen aan een Route
 
-Als je extra informatie wilt doorgeven via een route zoals: https://localhost:8000/products/macbook, waar "macbook" de 
+Als je extra informatie wilt doorgeven via een route zoals: https://projectnaam.test/products/macbook, waar "macbook" de 
 extra informatie is die je wilt doorgeven. Dan kan je dit doen door een parameter toe te voegen aan de route.
 
 
@@ -81,7 +81,7 @@ Dit kun je natuurlijk ook doen voor een id of een andere parameter die je wilt d
 ## Named Routed
 
 In applicaties komen links veel voor. In een Laravel applicatie kun je in de HTML een direct link maken naar een andere pagina. 
-Bijvoorbeeld naar detailpagina van een product: `http://localhost:8000/products/productdetails/24`. Het gebeurt echter regelmatig
+Bijvoorbeeld naar detailpagina van een product: `http://projectnaam.test/products/productdetails/24`. Het gebeurt echter regelmatig
 dat URL's worden aangepast. In dat geval zou je overal deze directe links moeten aanpassen. De oplossing hiervoor is 
 het gebruik van [named routes](https://laravel.com/docs/12.x/routing#named-routes).
 
@@ -118,7 +118,7 @@ Je ziet dat er al een aantal functies zijn aangemaakt. Deze functies zijn de sta
     ```
 
 - Maak een view aan voor index (ALT + Enter op `'products.index'`) en voeg HTML toe.
-- Go to [localhost:8000/products](http://localhost:8000/products) 
+- Go to [projectnaam.test/products](http://projectnaam.test/products) 
 - _Waarom laat dit een 404 foutmelding zien?_
 
 
